@@ -1,0 +1,50 @@
+<nb-layout>
+  <nb-layout-header fixed>
+      <a routerLink="/newpage">Project CAL</a>
+  </nb-layout-header>
+
+  <nb-sidebar> 
+    <p>Sidebar Content</p>
+    <nav>
+      <a routerLink="/dashboard">Dashboard</a>
+    </nav>
+    <nav>
+      <a routerLink="/accessrole">Access Role</a>
+    </nav>
+    <nav>
+      <a routerLink="/application">Application</a>
+    </nav>
+    <nav>
+      <a routerLink="/auditlog">Audit Log</a>
+    </nav>
+    <nav>
+      <a routerLink="/employee">Employee</a>
+    </nav>
+    <nav>
+      <a routerLink="/package">Package</a>
+    </nav>
+    <nav>
+      <a routerLink="/pricing">Pricing</a>
+    </nav>
+    <nav>
+      <a routerLink="/reports">Reports</a>
+    </nav>
+    <nav>
+      <a routerLink="/sender">Sender</a>
+    </nav>
+    <nav>
+      <a routerLink="/shipmentagents">Shipment Agent</a>
+    </nav>
+    <nav>
+      <a routerLink="/vehicle">Vehicle</a>
+    </nav>
+    <nav>
+      <a routerLink="/vehicletype">Vehicle Type</a>
+    </nav>
+  </nb-sidebar>
+
+  <nb-layout-column>
+      <router-outlet></router-outlet>
+  </nb-layout-column>
+</nb-layout>
+
